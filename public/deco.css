@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(36, 37, 35);
+    
+}
+.livret{
+ display: flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items: center;
+ background-color:rgb(49, 13, 49);
+ height:40rem;
+}
+h1{ color:rgb(245, 245, 153);
+    font-size:3rem;
+    text-shadow: 1px 1px 2px rgb(224, 221, 221);
+    border:2px solid rgb(51, 51, 31);
+    
+}
+h1:hover{
+    background-color: rgb(90, 25, 68);
+    color: black;
+}
+
+.abonnées{
+
+    color: goldenrod;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-size:2rem;
+}
+.disposition{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:start;
+    justify-content:space-between;
+    border:4px solid rgb(23, 113, 136);
+    flex-wrap: wrap;
+    height:30rem;
+}
+.dispositions{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    border:5px solid rgb(224, 240, 84);
+    height:5rem;
+    box-shadow: 5px 5px 5px rgb(8, 8, 8);
+    cursor: pointer;
+}
+
+
